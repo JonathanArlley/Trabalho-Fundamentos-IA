@@ -2,7 +2,7 @@ import google.generativeai as genai
 import whisper
 
 model = whisper.load_model("tiny")
-audio_path = ""C:\Users\arlle\OneDrive\Área de Trabalho/IA-transcri-o-main/IA-transcri-o-main/gravação1.mp3
+audio_path = "C:\Users/arlle/OneDrive/Área de Trabalho/IA-transcri-o-main/IA-transcri-o-main/gravação1.mp3"
 
 API_KEY = 'AIzaSyCGW81sQiyNEp5ZjkreCU5l0rijOTBexAE'
 genai.configure(api_key=API_KEY)
